@@ -1,0 +1,17 @@
+background_opacity: 0.8
+colors:
+  primary:
+    background: '#3C4C55'
+    foreground: '#C5D4DD'
+  normal:
+    cyan:  '#7FC1CA'
+    blue:  '#83AFE5'
+    purple: '#9A93E1'
+    pink:  '#D18EC2'
+    red:   '#DF8C8C'
+    orange: '#F2C38F'
+    yellow: '#DADA93'
+    green:  '#A8CE93'
+
+font:
+  size: 13

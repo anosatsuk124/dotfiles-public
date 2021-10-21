@@ -1,0 +1,104 @@
+[[plugins]]
+repo='raphamorim/lucario'
+hook_add='''
+runtime plugins.conf/colorscheme.vim
+'''
+
+[[plugins]]
+repo='Shougo/defx.nvim'
+depends=['roxma/nvim-yarp', 'roxma/vim-hug-neovim-rpc', 'kristijanhusak/defx-git', 'kristijanhusak/defx-icons']
+hook_add='''
+runtime plugins.conf/defx.vim
+'''
+[[plugins]]
+repo='roxma/nvim-yarp'
+[[plugins]]
+repo='roxma/vim-hug-neovim-rpc'
+[[plugins]]
+repo='kristijanhusak/defx-git'
+[[plugins]]
+repo='kristijanhusak/defx-icons'
+
+[[plugins]]
+repo='jiangmiao/auto-pairs'
+
+[[plugins]]
+repo='nvim-treesitter/nvim-treesitter'
+hook_add='''
+runtime plugins.conf/nvim-treesitter.vim
+'''
+
+[[plugins]] 
+repo='sheerun/vim-polyglot'
+
+# [[plugins]]
+# repo='Shougo/deoplete.nvim'
+# hook_add='''
+# 	let g:deoplete#enable_at_startup = 1
+# 	set completeopt-=preview
+# 	'''
+# # [[plugins]]
+# repo='glacambre/firenvim'
+# hook_add='''
+# '''
+
+
+# [[plugins]]
+# repo='scrooloose/nerdtree'
+# hook_add='''
+# nnoremap <silent><C-t> :NERDTreeToggle<CR>
+# '''
+
+# [[plugins]]
+# repo='rhysd/nyaovim-markdown-preview'
+# hook_add='''
+# let g:markdown_preview_auto = 1
+# '''
+# 
+# [[plugins]]
+# repo='rhysd/nyaovim-mini-browser'
+
+# [[plugins]]
+# repo='ujihisa/neco-look'
+
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp.git'
+
+# [[plugins]]
+# repo='anotee/zoxide.vim'
+
+[[plugins]]
+repo='tyru/eskk.vim'
+hook_add='''
+runtime plugins.conf/eskk.vim
+'''
+
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+rev = 'release'
+on_i = 1
+merged = 0
+hook_add='''
+runtime plugins.conf/coc.vim
+'''
+
+[[plugins]]
+repo='simeji/winresizer'
+
+# [[plugins]]
+# repo='junegunn/fzf'
+# build = './install --bin'
+# merged = 0
+# 
+# [[plugins]]
+# repo = 'junegunn/fzf.vim'
+# depends = 'fzf'
+# hook_add = '''
+# runtime plugins.conf/fzf.vim
+# '''
+
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+hook_add = '''
+runtime plugins.conf/denite.vim
+'''

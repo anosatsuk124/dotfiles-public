@@ -1,0 +1,19 @@
+[[plugins]]
+repo='stewy33/mercury-vim'
+on_ft='mercury'
+
+[[plugins]]
+repo='goerz/jupytext.vim'
+hook_add='''
+let g:jupytext_fmt = 'py:percent'
+let g:jupytext_filetype_map = {'py': 'python'}
+'''
+on_path='*.ipynb'
+
+[[plugins]]
+repo = 'hylang/vim-hy'
+on_ft='hy'
+
+[[plugins]]
+repo='iamcco/markdown-preview.nvim' 
+on_ft='markdown'

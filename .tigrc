@@ -1,0 +1,1 @@
+bind main D !sh -c "git difftool %(commit)~ %(commit)"

@@ -1,0 +1,10 @@
+/.eskk/log
+/.config/nvim/.undo
+/.config/*
+!nvim
+!fish
+!awesome
+/.config/fcitx/*
+!skk
+/.config/neomutt/passwd*
+/.ssh/*
