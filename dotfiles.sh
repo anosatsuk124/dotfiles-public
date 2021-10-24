@@ -51,8 +51,6 @@ if [ "$1" = 'install' ] ; then
 	elif [ $(which $SHELL) = $(which fish) ] ; then
 		fish -c fish_vi_key_bindings
 	fi
-	# git config --global user.email 'anosatsuk124@gmail.com'
-	# git config --global user.name 'Satsuki Akiba'
   mkdir ~/.dein
 	sh nvim_installer.sh ~/.dein
 	echo 'Copy and Paste to Github: '

@@ -7,6 +7,8 @@ set smartindent
 inoremap <silent> jj <ESC>
 set completeopt=noselect,noinsert
 
+" Compiling when saved
+
 
 if has('persistent_undo')
 	let undo_path = expand('~/.config/nvim/.undo')
