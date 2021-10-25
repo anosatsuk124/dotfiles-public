@@ -1,5 +1,5 @@
 set fish_key_bindings fish_user_key_bindings
-set EDITOR nvim
+export EDITOR=nvim
 
 # >>> conda initialize >>>
 if test -d ~/miniconda3
@@ -18,7 +18,7 @@ end
 test -s "$HOME/.config/envman/load.fish"; and source "$HOME/.config/envman/load.fish"
 
 # Set the path to go installation-dir
-set PATH "$HOME/go/bin" $PATH
+# set PATH "$HOME/go/bin" $PATH
 
 # Set the env for fzf
 export FZF_DEFAULT_OPTS='--height 40% --reverse --border'

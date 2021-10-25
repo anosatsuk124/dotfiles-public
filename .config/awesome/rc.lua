@@ -474,11 +474,20 @@ awful.rules.rules = {
                      raise = true,
                      keys = clientkeys,
                      buttons = clientbuttons,
+		  maximized_vertical = false,
+							 maximized_horizontal = false,
                      screen = awful.screen.preferred,
                      placement = awful.placement.no_overlap+awful.placement.no_offscreen
      }
     },
-
+-- kde
+{
+    rule = { class = "Plasma-desktop" },
+    properties = { floating = true },
+    callback = function(c)
+        c:geometry( { width = 600 , height = 500 } )
+    end,
+},
     -- Floating clients.
     { rule_any = {
         instance = {
