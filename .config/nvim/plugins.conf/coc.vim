@@ -3,10 +3,10 @@ nnoremap <nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<
 inoremap <nowait><expr> <C-f> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(1)\<cr>" : "\<Right>"
 inoremap <nowait><expr> <C-b> coc#float#has_scrol
 " Extensions
-" let g:coc_global_extensions = [
-"   \ 'coc-json',
-"   \ 'coc-prettier'
-"   \ ]
+let g:coc_global_extensions = [
+  \ 'coc-json',
+  \ 'coc-prettier'
+  \ ]
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
@@ -166,7 +166,7 @@ nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
 " Find symbol of current document.
 nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
 " Search workspace symbols.
-nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
+" nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
 " Do default action for next item.
 nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 " Do default action for previous item.

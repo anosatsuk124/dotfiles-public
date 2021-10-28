@@ -1,5 +1,6 @@
 /.eskk/log
 /.config/nvim/.undo
+/.config/nvim/sessions/*
 /.config/*
 !nvim
 !fish

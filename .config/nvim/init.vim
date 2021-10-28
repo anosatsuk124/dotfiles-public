@@ -6,8 +6,15 @@ set shiftwidth=4
 set smartindent
 inoremap <silent> jj <ESC>
 set completeopt=noselect,noinsert
+set sessionoptions=blank,buffers,curdir,folds,help,tabpages,winsize,terminal
+tnoremap <C-k> <C-\><C-n>
 
-" Compiling when saved
+runtime tabpage.vim
+
+" Set default shell to powershell
+set shell=pwsh.exe\ \-NoExit\ \-File\ \ C\:\\\Users\\\anosa\\\Documents\\\PowerShell\\\Modules\\\Microsoft\.PowerShell\_profile\_vim\.ps1
+
+"Compiling when saved
 
 
 if has('persistent_undo')
@@ -69,3 +76,7 @@ if has('nvim')
 		call system('export NVM_DIR=$HOME/.nvm && [-s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"')
 	endif
 endif
+
+" Set extensions
+au! BufNewFile,BufRead *.hy setf hy
+au! BufNewFile,BufRead *.csx setf cs

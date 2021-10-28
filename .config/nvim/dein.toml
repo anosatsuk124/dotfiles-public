@@ -85,20 +85,26 @@ runtime plugins.conf/coc.vim
 [[plugins]]
 repo='simeji/winresizer'
 
-# [[plugins]]
-# repo='junegunn/fzf'
-# build = './install --bin'
-# merged = 0
-# 
-# [[plugins]]
-# repo = 'junegunn/fzf.vim'
-# depends = 'fzf'
-# hook_add = '''
-# runtime plugins.conf/fzf.vim
-# '''
+[[plugins]]
+repo='junegunn/fzf'
+build = './install --bin'
+merged = 0
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+depends = 'fzf'
+hook_add = '''
+runtime plugins.conf/fzf.vim
+'''
 
 [[plugins]]
 repo = 'Shougo/denite.nvim'
 hook_add = '''
 runtime plugins.conf/denite.vim
 '''
+
+[[plugins]]
+repo = 'xolox/vim-session'
+
+[[plugins]]
+repo = 'xolox/vim-misc'
