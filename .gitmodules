@@ -1,0 +1,8 @@
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = git@github.com:anosatsuk124/nvim
+	branch = windows
+[submodule ".config/fish"]
+	path = .config/fish
+	url = git@github.com:anosatsuk124/fish
+	branch = windows

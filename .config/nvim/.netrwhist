@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
-let g:netrw_dirhist_6='/home/anosatsuk124/dotfiles/.eskk'
-let g:netrw_dirhist_5='/home/anosatsuk124/dotfiles/.git'
-let g:netrw_dirhist_4='/home/anosatsuk124/dotfiles'
-let g:netrw_dirhist_3='/home/anosatsuk124/dotfiles/.config'
-let g:netrw_dirhist_2='/home/anosatsuk124/dotfiles/.config/nvim'
-let g:netrw_dirhist_1='/home/anosatsuk124/dotfiles/.config/nvim/.undo'
